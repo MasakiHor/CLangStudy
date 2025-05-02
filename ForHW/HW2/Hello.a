@@ -1,0 +1,13 @@
+/* hello, world
+   puts Version */
+
+#include<stdio.h>
+
+// main function
+int main(void){
+
+    //output for stdout.
+    puts("hello, world");
+
+    return 0;//val=0
+}
