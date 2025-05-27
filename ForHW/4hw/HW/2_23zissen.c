@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(void){
+  int a,b,c,d,e;
+  
+  scanf("%d",&a);
+  b=a/10;
+  c=a%10;
+  d=c/5;
+  e=b*10+d*10;
+
+  printf("%d\n",e);
+
+  return 0;
+} 
+  
