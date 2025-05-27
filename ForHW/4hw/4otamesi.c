@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void){
+  printf("%d,%03d,%.3f\n",200,3,3.14159);
+
+  return 0;
+}
+  
