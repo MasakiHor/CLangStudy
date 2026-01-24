@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include <limits.h>
+#include<limits.h>
 
 int main(void){
 
@@ -22,12 +22,17 @@ int main(void){
   */
 
   puts("-2^63以上2^63未満の数を2つ入力してください。1つ目の入力値を2つ目の入力値で割った際の商から、小数点以下を切り捨てた値を出力します。なお、2つ目の入力値には0を入力しないでください。");
-
+  
   scanf("%ld %ld",&A,&B);
 
+  if(A==-9223372036854775808LL && B==-1){
+    puts("saying puts : 9223372036854775808");
+  }else{
   printf("%ld\n",A/B);
-
+  }
+  /*
   // printf("2^63-1=%ld\n",9223372036854775807);
+  */
 
   return 0;
 }
