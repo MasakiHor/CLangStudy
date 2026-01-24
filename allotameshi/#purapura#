@@ -1,0 +1,6 @@
+// お試し n++　と n-- とかが、それ一回つけたらnがその式ではそれ以降変数とはあつかwれなくなる。
+
+#include<stdio.h>
+
+int main(void){
+int n:

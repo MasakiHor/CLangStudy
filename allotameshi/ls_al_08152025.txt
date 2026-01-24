@@ -1,0 +1,27 @@
+合計 192
+-rw-rw-r-- 1 masaki masaki     0  8月 11 22:38 #2mozihenkan.c#
+-rw-rw-r-- 1 masaki masaki   178  7月 22 23:12 #purapura#
+drwxrwxr-x 2 masaki masaki  4096  8月 15 23:06 .
+drwxrwxr-x 6 masaki masaki  4096  7月 22 21:12 ..
+-rw-rw-r-- 1 masaki masaki   139  8月 11 22:40 2mozihenkan.c
+-rwxrwxr-x 1 masaki masaki 16072  8月 11 22:40 2mozihenkan.o
+-rw-rw-r-- 1 masaki masaki   133  8月 11 22:25 charotameshi.c
+-rw-rw-r-- 1 masaki masaki   134  8月 11 22:24 charotameshi.c~
+-rwxrwxr-x 1 masaki masaki 15968  8月 11 22:24 charotameshi.o
+-rwxrwxr-x 1 masaki masaki 16064  8月 11 21:25 inter.o
+-rw-rw-r-- 1 masaki masaki   105  8月 11 21:25 intper.c
+-rw-rw-r-- 1 masaki masaki     0  8月 15 23:15 ls_al_08152025.txt
+-rw-rw-r-- 1 masaki masaki   120  8月 11 22:36 mozihenkan.c
+-rw-rw-r-- 1 masaki masaki   109  8月 11 22:33 mozihenkan.c~
+-rwxrwxr-x 1 masaki masaki 16064  8月 11 22:36 mozihenkan.o
+-rw-rw-r-- 1 masaki masaki   136  8月 11 23:35 newrokkakkei.c
+-rw-rw-r-- 1 masaki masaki   134  8月 11 23:34 newrokkakkei.c~
+-rwxrwxr-x 1 masaki masaki 16072  8月 11 23:36 newrokkakkei.o
+-rw-rw-r-- 1 masaki masaki   167  7月 22 23:25 purapura.c
+-rw-rw-r-- 1 masaki masaki   164  7月 22 23:23 purapura.c~
+-rwxrwxr-x 1 masaki masaki 15968  7月 22 23:24 purapura.o
+-rwxrwxr-x 1 masaki masaki 15968  7月 22 23:19 puurapura.o
+-rw-rw-r-- 1 masaki masaki   203  8月 11 23:30 rokakkei.c
+-rw-rw-r-- 1 masaki masaki   203  8月 11 23:18 rokakkei.c~
+-rwxrwxr-x 1 masaki masaki 16064  8月 11 23:18 rokakkei.o
+-rw-rw-r-- 1 masaki masaki   131  8月 15 23:03 zyussin_to_nisin.c

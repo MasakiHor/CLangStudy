@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+int main(void){
+  printf("%3d\n",3);
+  printf("%3d\n",333);
+  return 0;
+}

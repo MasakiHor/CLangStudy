@@ -1,0 +1,15 @@
+//input=n<10000 output=1+2+3.......+n
+
+#include<stdio.h>
+
+int main(void){
+  int n;
+
+  scanf("%d",&n);
+
+  printf("%d\n",n*(n+1)/2);
+  printf("%d\n",1/2*n*(n+1)); //これだとまず最初の計算で1/2=0になって、よって0の掛け算だから最後の出力も0になってしまう。
+
+  return 0;
+}
+ 

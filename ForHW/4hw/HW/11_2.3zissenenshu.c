@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void){
+  int day,exception31;
+
+  scanf("%d",&day);
+
+  exception31=day/31;
+
+  printf("%d\n",(day-1)/5+1-exception31);
+
+  return 0;
+}

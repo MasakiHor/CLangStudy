@@ -1,0 +1,14 @@
+//Hello C World to shuturyokusuru progam
+
+#include<stdio.h>
+
+int main(void){
+
+  char * string;
+
+  scanf("%s",&string);
+  
+  puts(string);
+
+  return 0;
+}

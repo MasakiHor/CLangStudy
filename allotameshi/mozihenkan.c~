@@ -1,0 +1,9 @@
+//文字変換
+
+#include <stdio.h>
+int main(void){
+  scanf("%c",&c1);
+  printf("%c\n",c1+32);
+
+  return 0;
+}

@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(void){
+  int n=5;
+  int c1='p',c2='i';
+
+  printf("%d,%d\n",c1,c2);
+  printf("%d\n",c2/n);
+
+  return 0;
+}

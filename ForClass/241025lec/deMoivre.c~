@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+#include<complex.h>
+#include<tgmath.h>
+
+int main(void){
+  double theta,n;
+  double complex a,b;
+
+  scanf("%lf %lf",&theta,&n);
+
+  a=cos(theta)+I*sin(n*theta);
+  a=pow(a,n);
+  b=cos(n*theta)+I*sin(n*theta);
+
+  printf("a=%f+%fi\n",creal(a),cimag(a));
+  printf("b=%f+%fi\n",creal(b),cimag(b));
+
+  return 0;
+}
+  

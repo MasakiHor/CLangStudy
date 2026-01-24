@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<math.h>
+#include<complex.h>
+#include<tgmath.h>
+
+int main(void){
+  double Tcel,Tkel; /*地表温度*/
+  const double gamma = 6.5E-3; /*気温減率(K/m)*/
+  const double ps = 1013.25; /*海面気圧*/
+  const double R = 287; /*乾燥大気の気体定数*/
+  const double g = 9.80665; /*地球重力加速度*/
+
+  scanf("%lf",&Tcel);/*セルシウス度入力想定*/
+  Tkel = Tcel + 273.15;
+
+  printf("地表温度（K）は %fケルビン\n",Tkel);
+  printf("2^2=pow(2,2)=%f\n",pow(2,2));
+  printf("pow(300/ps, R*gamma/g)=%f\n",pow(300/ps, R*gamma/g));
+  printf("300/ps=%f\n",300/ps);
+  printf("R*gamma/g=%f\t R*gamma=%f\t g=%f\n",R*gamma/g,R*gamma,g);
+  printf("300hPa面は%fメートル \n",Tkel*(1-pow(300/ps, R*gamma/g))/gamma);
+  printf("500hPa面は%fメートル \n",Tkel*(1-pow(500/ps, R*gamma/g))/gamma);
+  printf("700hPa面は%fメートル\n",Tkel*(1-pow(700/ps, R*gamma/g))/gamma);
+  printf("850hPa面は%fメートル \n",Tkel*(1-pow(850/ps, R*gamma/g))/gamma);
+  printf("1000hPa面は%fメートル \n",Tkel*(1-pow(1000/ps, R*gamma/g))/gamma);
+
+  return 0;
+} 
