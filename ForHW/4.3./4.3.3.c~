@@ -1,22 +1,24 @@
 #include<stdio.h>
 int main(void){
-  unsigned int siteim;//視程meter略してsitei(シテイ)m
-  scanf("%du",&siteim);
+  int siteim;//視程meter略してsitei(シテイ)m
+  scanf("%d",&siteim);
 
-  if(siteim<100){
+  printf("%d\n",siteim);
+
+  if(siteim>=0 && siteim<100){
     puts("VV=00");
   }else if(siteim>=100 && siteim<1000 && siteim%100==0){
     printf("VV=0%d\n",siteim/100);
   }else if(siteim>=1000 && siteim<=5000 && siteim%100==0){
     printf("VV=%d\n",siteim/100);
   }else if(siteim>=6000 && siteim<=30000 && siteim%1000==0){
-    printf("VV=%d\n",siteim/1000+50);
+    printf("VV=%d\n",(siteim/1000)+50);
   }else if(siteim>=35000 && siteim<=70000 && siteim%5000==0){
-    printf("VV=%d\n",(siteim/1000-30)/5+80);
+    printf("VV=%d\n",((siteim/1000-30)/5)+80);
   }else if(siteim>70000){
     puts("VV=89");
   }else{
-    puts("入力値が適切ではありません。VVの値が整数にならないか、視程の入力値がその対応範囲に含まれていない可能性があります");
+    puts("入力値が適切ではありません。VVの値が整数にならないか、視程の入力値がVVの計算の対応範囲（定義域）に含まれていない可能性があります");
 	 }
-      return 0;
+ return 0;
   }
